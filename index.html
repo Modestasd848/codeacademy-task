@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>HTML FORM</title>
+  </head>
+  <body>
+    <form action="https://formspree.io/f/xrgdodoz" method="post">
+      <h1>Contact Us!</h1>
+      <fieldset>
+        <label for="name-input">Name:</label>
+        <br />
+        <input
+          type="name-input"
+          id="name-inpute"
+          required
+          name="name"
+          minlength="3"
+          maxlength="20"
+          placeholder="Petras"
+        />
+        <br />
+        <label for="email-input">E-mail:</label>
+        <br />
+        <input
+          type="email"
+          id="email-input"
+          required
+          name="email"
+          placeholder="petras@petras.lt"
+        />
+        <br />
+        <label for="number-input">Reference Number:</label>
+        <br />
+        <input type="number" id="number-input" placeholder="12213" />
+        <br />
+        <label id="textarea" for="textarea"></label>
+        <br />
+        <textarea
+          name="textarea"
+          id=""
+          cols="21"
+          rows="1"
+          placeholder="Your message goes here..."
+        ></textarea>
+        <br />
+        <button type="send">Send!</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
